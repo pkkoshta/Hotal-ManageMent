@@ -1,0 +1,17 @@
+server:
+  port: 9093
+
+spring:
+  application:
+    name: CUSTOMER-SERVICE
+
+  datasource:
+    url: jdbc:mysql:///pc
+    username: root
+    password: prashantMac
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+

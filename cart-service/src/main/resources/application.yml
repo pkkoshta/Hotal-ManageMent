@@ -1,0 +1,17 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: PRODUCT-SERVICE
+
+  datasource:
+    url: jdbc:mysql:///productdb
+    username: root
+    password: prashantMac
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
